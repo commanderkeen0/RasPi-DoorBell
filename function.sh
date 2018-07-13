@@ -9,7 +9,8 @@
 # Verison 0.1
 
 # SET basic parameters
-source /opt/doorbell/door.cfg
+#source /opt/doorbell/door.cfg
+source $BASEDIR/door.cfg
 
 function PLAYLOCALSOUND {
 
