@@ -1,0 +1,35 @@
+Tutorials are mixed German and English
+
+
+Taster
+	https://pi-buch.info/die-fehlende-reset-taste/
+	https://www.xgadget.de/anleitung/raspberry-pi-taster-anschliessen/
+	http://pi4j.com/pins/model-3b-rev1.html
+	https://community.conrad.de/frage-ansehen/raspberry-pi-3-per-drucktaster-starten
+
+Tutorials
+	http://rocode.com/sensors/
+	http://blog.initialstate.com/pi-for-kids-door-sensor/
+	https://luketopia.net/2013/07/28/raspberry-pi-gpio-via-the-shell/
+	http://wiringpi.com/the-gpio-utility/
+	http://nicht-traeumen-sondern-machen.de/RaspberryPi_Basteleien/Code_Abfrage_eines_GPIO_Ports.php
+
+BASH 
+	http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html
+
+
+TELEGRAM STUFF
+	https://github.com/LibreLabUCM/teleg-api-bot/wiki/Getting-started-with-the-Telegram-Bot-API
+	http://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
+	http://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
+	https://mickderksen.wordpress.com/2016/12/15/how-to-create-a-telegram-bot-on-your-raspberry-pi/
+	https://jmendeth.com/blog/telegram-shell-bot/
+	https://www.domoticz.com/forum/viewtopic.php?t=11345
+	http://community.onion.io/topic/499/sending-telegram-messages-via-bots/2
+	https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id
+
+CAMERA
+	https://www.raspberrypi.org/documentation/usage/webcams/
+
+Tools
+	http://www.sftpnetdrive.com/

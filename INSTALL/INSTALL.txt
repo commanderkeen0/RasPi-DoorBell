@@ -1,0 +1,57 @@
+# 1. Config Network access
+Modify your /etc/network/interfaces and /etc/wpa_supplicant/wpa_supplicant.conf to automatically connecto to your Wifi
+
+This is meant as a hint not an instruction: Google can help you:
+
+/etc/network/interfaces
+	auto wlan0
+	allow-hotplug wlan0
+	#iface wlan0 inet manual
+	iface wlan0 inet dhcp
+		wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+
+/etc/wpa_supplicant/wpa_supplicant.conf 
+	country=DE
+	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+	update_config=1
+
+	network={
+		ssid="<MY-PERSONAL-SSID>"
+		psk="<MY-CORESPONDING-PASSWORD>"
+	}
+	
+# 2. Update system
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo rpi-update
+
+# 3. install packages
+sudo apt-get install mpg123
+sudo apt-get install wiringpi
+sudo apt-get install screen
+sudo apt-get install fswebcam
+
+# 4. get a telegrambot
+# 5. make it member of an group
+# 6. obtain Group ID / User ID 
+# 7. Update door.cfg file with GROUPID, USERID, API Code
+
+# Modify autdio
+
+https://raspberrypi.stackexchange.com/questions/3412/errors-with-espeak
+
+
+# 8. autostart
+Modify your /etc/rc.local with the command:
+REMARK: This is no propper init script and far away from a clean coding
+		This is just a fix
+
+/etc/rc.local
+	sudo -u pi /opt/doorbell/start.sh start
+	
+
+# 9. remote access via SSH
+Use user key based authentication without a password
+This is not super secure but should do for the moment.
+
